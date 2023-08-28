@@ -1,10 +1,5 @@
 # Usage
 
-## Installation
-First require the package via composer:
-
-`composer require --dev burdadirect/codestyle`
-
 ## Choose a version
 After that, decide which configuration you want to use, currently the following configurations are supported:
 - PHP 7.4
