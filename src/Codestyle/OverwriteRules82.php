@@ -10,6 +10,15 @@ class OverwriteRules82 extends DefaultRuleOverwrites
       'void_return'           => false,
       'declare_strict_types'  => false,
       // change braces to reduce initial change set
+      'class_attributes_separation' => [
+        'elements' => [
+          'const'        => 'only_if_meta',
+          'method'       => 'one',
+          'property'     => 'one',
+          'trait_import' => 'none',
+          'case'         => 'none',
+        ],
+      ],
       'ordered_class_elements' => false,
       'curly_braces_position'  => [
         'allow_single_line_anonymous_functions'     => true,
