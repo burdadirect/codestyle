@@ -1,0 +1,28 @@
+{
+    "name": "burdadirect/codequality",
+    "description": "BurdaDirect codequality tools and definitions",
+    "type": "library",
+    "require": {
+        "k10r/codestyle": "^3.1",
+        "phpstan/phpstan": "^1.10",
+        "phpstan/phpstan-symfony": "^1.3",
+        "phpstan/extension-installer": "^1.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BurdaDirect\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joachim Krempel",
+            "email": "joachim.krempel@burda.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
+}

@@ -1,0 +1,14 @@
+parameters:
+    bootstrapFiles:
+    	- vendor/autoload.php
+    symfony:
+        container_xml_path: var/cache/dev/HBM_Invitations_KernelDevDebugContainer.xml
+
+    level: 1
+    paths:
+        - src
+
+    ignoreErrors:
+        - '#Class (.*) specifies template type T of interface (.*) as (.*) but (.*) already specified as (.*)\.#'
+        - '#Interface (.*) specifies template type T of interface (.*) as (.*) but (.*) already specified as (.*)\.#'
+    reportUnmatchedIgnoredErrors: true
