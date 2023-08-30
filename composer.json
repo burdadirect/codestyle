@@ -1,5 +1,5 @@
 {
-    "name": "burdadirect/codequality",
+    "name": "burdadirect/codestyle",
     "description": "BurdaDirect codequality tools and definitions",
     "type": "library",
     "require": {
